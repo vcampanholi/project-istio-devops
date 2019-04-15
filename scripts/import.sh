@@ -1,0 +1,1 @@
+#! /bin/bashmongoimport --host mongodb --db personDB --username person-service  --password admin --collection person --type json --file /scripts/person.json --jsonArray
