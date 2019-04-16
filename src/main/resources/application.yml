@@ -1,1 +1,1 @@
-server:  port: 8080spring:  data:    mongodb:      host: localhost      port: 27017      database: mongodb
+server:  port: 8080spring:  data:    mongodb:      uri: 'mongodb://root:dev@localhost:27017/person?authSource=admin'

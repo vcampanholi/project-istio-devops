@@ -1,1 +1,1 @@
-#! /bin/bashmongoimport --host mongodb --db personDB --username person-service  --password admin --collection person --type json --file /scripts/person.json --jsonArray
+#! /bin/bashmongoimport --host mongodb --db person --username person-service  --password dev --collection person --type json --file /scripts/person.json --jsonArray
